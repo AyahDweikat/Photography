@@ -1,0 +1,756 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575px) {
+/*logo*/
+.navbar .logo{
+    float:none;
+    width:30%;
+    margin:0px 35%;
+}
+.navbar .logo img{
+    height:30px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+/*nav*/
+.navbar .nav{
+    float:none;
+    width: 100%;
+    margin-left: 0px;
+    padding-top:10px;
+}
+.navbar .nav span{
+    height:0px;
+    width:0px;
+}
+.navbar .nav .search{
+    float: none;
+    padding-top:2px;
+    padding-left:0px;
+}
+a i{
+    font-size: 10px;
+}
+.navbar .nav .nav-list{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navbar .nav .nav-list a{
+    font-size: 15px;
+}
+/*----------Header----------*/
+.header-content{
+    padding-top: 150px;
+}
+.header-content h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-size: 16px;
+    width:90%;
+    margin: auto;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 150px;
+}
+.header-content button{
+    padding:10px 20px; 
+}
+.btn-a{
+    font-size: 10px;
+}
+/* Portfolio */
+.portfolio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pics-table{
+    margin:15px 0px;
+}
+.pics-table .pic{
+    margin:20px 0px;
+}
+.pics-table .pic .img-pic{
+    margin: auto;
+    margin-bottom:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.pics-table .pic .title-pic{
+    font-size: 15px;
+    margin-left:0px;
+    margin-bottom:5px;
+}
+.pics-table .pic .collection a{
+    margin-left:0px;
+    font-size: 12px;
+}
+.pics-table .pic .collection i{
+    margin:5px 0px 0px 8px;
+}
+/*---------Social-----------*/
+.social .copyright{
+    overflow: hidden;
+    float:none;
+    width:100%;
+    padding-left:0px;
+    padding-top:20px;
+}
+.copyright p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social .social-cites span{
+    float:none;
+    height:0px;
+    width:0px;
+    margin-top:0px;
+}
+.social .social-cites{
+    float:none;
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+}
+.social .social-cites .social-list{
+    float:left;
+    margin-top:0px;
+}
+.social .social-cites .social-list i{
+    font-size: 12px;
+    line-height: 15px;
+    width:15px;
+    height: 15px;
+    padding: 5px;
+}
+}
+/* Small devices (landscape phones, 576px and up)----------------------------------*/
+@media screen and (min-width: 576px) and (max-width:766px) {
+/*logo*/ 
+.navbar .logo{
+    float:none;
+    width:20%;
+    margin:auto;
+}
+.navbar .logo img{
+    height:30px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+/*nav*/
+.navbar .nav{
+    float:none;
+    width: 58%;
+    margin: auto;
+    padding-top:10px;
+}
+.navbar .nav span{
+    height:0px;
+    width:0px;
+}
+.navbar .nav .search{
+    float: none;
+    padding-top:2px;
+    padding-left:0px;
+}
+a i{
+    font-size: 10px;
+}
+.navbar .nav .nav-list{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navbar .nav .nav-list a{
+    font-size: 15px;
+}
+/*----------Header----------*/
+.header-content{
+    padding-top: 100px;
+}
+.header-content h1{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 18px;
+    width:65%;
+    margin: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 160px;
+}
+.header-content button{
+    padding:10px 20px; 
+}
+.btn-a{
+    font-size: 12px;
+}
+/* Portfolio */
+.portfolio{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pics-table{
+    margin:40px 20px 0px;
+}
+.pics-table .pic{
+    margin:50px 0px 10px 0px;
+    display: inline-block;
+    margin:auto;
+    width:100%;
+}
+.pics-table .pic .img-pic{
+    margin: auto;
+    margin-bottom:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width:90%;
+
+}
+.pics-table .pic .title-pic{
+    font-size: 18px;
+    margin-left:0px;
+    margin-bottom:5px;
+}
+.pics-table .pic .collection a{
+    margin-left:0px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.pics-table .pic .collection i{
+    margin:5px 0px 0px 8px;
+}
+/*---------Social-----------*/
+.social .copyright{
+    float:none;
+    width:100%;
+    padding-left:0px;
+    padding-top:20px;
+}
+.copyright p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social .social-cites span{
+    float:none;
+    height:0px;
+    width:0px;
+    margin-top:0px;
+}
+.social .social-cites{
+    text-align: center;
+    float:none;
+    width:23%;
+    margin: auto;
+    overflow: hidden;
+}
+.social .social-cites .social-list{
+    float:left;
+    margin-top:0px;
+}
+.social .social-cites .social-list i{
+    font-size: 15px;
+    line-height: 18px;
+    width:18px;
+    height: 18px;
+    padding: 5px;
+}
+}
+/* Medium devices (tablets, 768px and up)----------------------*/
+@media screen and (min-width: 767px) and (max-width:991px) {
+    /*logo*/ 
+    .navbar .logo{
+        float:left;
+        width:20%;
+        margin:auto;
+    }
+    .navbar .logo img{
+        height:30px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    /*nav*/
+    .navbar .nav{
+        float:right;
+        width: 45%;
+        margin: auto;
+        padding-top:25px;
+    }
+    .navbar .nav span{
+        height:0px;
+        width:0px;
+    }
+    .navbar .nav .search{
+        float: none;
+        padding-top:2px;
+        padding-left:0px;
+    }
+    a i{
+        font-size: 10px;
+    }
+    .navbar .nav .nav-list{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .navbar .nav .nav-list a{
+        font-size: 15px;
+    }
+    /*----------Header----------*/
+    .header-content{
+        padding-top: 200px;
+    }
+    .header-content h1{
+        font-size: 32px;
+        margin-bottom: 55px;
+    }
+    .header-content p{
+        font-size: 22px;
+        width:60%;
+        margin: auto;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 150px;
+    }
+    .header-content button{
+        padding:10px 20px; 
+    }
+    .btn-a{
+        font-size: 12px;
+    }
+    /* Portfolio */
+    .portfolio{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .pics-table{
+        margin:50px 40px 0px 40px;
+    }
+    .pics-table .pic{
+        float:left;
+        margin:0px 0px 0px 0px;
+        width:30%;
+        margin:auto;
+    }
+    .pics-table .pic .img-pic{
+        margin: auto;
+        margin-bottom:0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width:90%;
+    
+    }
+    .pics-table .pic .title-pic{
+        font-size: 18px;
+        margin-left:0px;
+        margin-bottom:5px;
+    }
+    .pics-table .pic .collection a{
+        margin-left:0px;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    .pics-table .pic .collection i{
+        margin:5px 0px 0px 8px;
+    }
+    /*---------Social-----------*/
+    .social .copyright{
+        float:left;
+        width:40%;
+        padding-left:0px;
+        padding-top:20px;
+    }
+    .copyright p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social .social-cites span{
+        float:none;
+        height:0px;
+        width:0px;
+        margin-top:0px;
+    }
+    .social .social-cites{
+        text-align: center;
+        margin-right: 10px;
+        float:right;
+        width:22%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .social .social-cites .social-list{
+        float:left;
+        margin-top:20px;
+        width:20%;
+    }
+    .social .social-cites .social-list i{
+        font-size: 15px;
+        line-height: 18px;
+        width:18px;
+        height: 18px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    /*logo*/ 
+    .navbar .logo{
+        float:left;
+        width:20%;
+        margin:auto;
+    }
+    .navbar .logo img{
+        height:32px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    /*nav*/
+    .navbar .nav{
+        float:right;
+        width: 35%;
+        margin: auto;
+        padding-top:25px;
+    }
+    .navbar .nav span{
+        height:0px;
+        width:0px;
+    }
+    .navbar .nav .search{
+        float: none;
+        padding-top:2px;
+        padding-left:0px;
+    }
+    a i{
+        font-size: 10px;
+    }
+    .navbar .nav .nav-list{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .navbar .nav .nav-list a{
+        font-size: 15px;
+    }
+    /*----------Header----------*/
+    .header-content{
+        padding-top: 200px;
+    }
+    .header-content h1{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .header-content p{
+        font-size: 18px;
+        width:50%;
+        margin: auto;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 150px;
+    }
+    .header-content button{
+        padding:10px 20px; 
+    }
+    .btn-a{
+        font-size: 12px;
+    }
+    /* Portfolio */
+    .portfolio{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top:50px;
+    }
+    .pics-table{
+        margin:0px 40px 0px 50px;
+    }
+    .pics-table .pic{
+        float:left;
+        margin:0px 0px 0px 0px;
+        width:30%;
+        margin:auto;
+    }
+    .pics-table .pic .img-pic{
+        margin: auto;
+        margin-bottom:0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width:90%;
+    
+    }
+    .pics-table .pic .title-pic{
+        font-size: 18px;
+        margin-left:0px;
+        margin-bottom:5px;
+    }
+    .pics-table .pic .collection a{
+        margin-left:0px;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    .pics-table .pic .collection i{
+        margin:5px 0px 0px 8px;
+    }
+/*---------Social-----------*/
+    .social .copyright{
+        float:left;
+        width:40%;
+        padding-left:0px;
+        padding-top:20px;
+    }
+    .copyright p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social .social-cites span{
+        float:none;
+        height:0px;
+        width:0px;
+        margin-top:0px;
+    }
+    .social .social-cites{
+        text-align: center;
+        margin-right: 10px;
+        float:right;
+        width:22%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .social .social-cites .social-list{
+        float:left;
+        margin-top:20px;
+        width:20%;
+    }
+    .social .social-cites .social-list i{
+        font-size: 15px;
+        line-height: 18px;
+        width:18px;
+        height: 18px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+ /* Extra large devices (large desktops, 1200px and up)----------------------------*/
+@media (min-width: 1200px) {
+/*----------navbar----------*/
+/*logo*/
+.navbar .logo{
+    float:left;
+    width:18%;
+}
+.navbar .logo img{
+    height:37px;
+    padding-top:28px;
+    padding-left: 68px;
+}
+/*nav*/
+.navbar .nav{
+    float:right;
+    width: 79%;
+    margin-right: 15px;
+    padding-top:33px;
+}
+.navbar .nav span{
+    float:left;
+    content:'';
+    color:transparent;
+    background-color: transparent;
+    height:20px;
+    width:595px;
+}
+.navbar .nav .search{
+    padding-top:4px;
+}
+a i{
+    color:white;
+    font-size: 18px;
+    font-weight: 100;
+}
+ul{
+    list-style-type: none;
+}
+.navbar .nav .nav-list{
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar .nav .nav-list a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/*----------Header----------*/
+.header{
+    background-image: url('../images/redd-angelo-252496.jpg');
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    height:800px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header-content{
+    text-align: center;
+    padding-top: 309px;
+}
+.header-content h1{
+    color:rgb(255, 255, 255);
+    font-size: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 40.92px;
+    margin-bottom: 35px;
+}
+.header-content p{
+    color:rgba(255, 255, 255, 0.92);
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 40.92px;
+    padding-left: 320px;
+    padding-right: 320px;
+    margin-bottom: 31px;
+}
+.header-content button{
+    cursor:pointer;
+    padding:15px 28px;
+    border-radius: 3px;
+    border:2px solid transparent;
+    background-color: white;
+    
+}
+.btn-a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Portfolio */
+.portfolio{
+    padding-bottom:50px;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.portfolio .container{
+    overflow: hidden;
+    width:96%;
+    margin: auto;
+}
+.pics-table{
+    width:100%;
+    background-color: white;
+    margin:45px 10px 20px 45px;
+}
+.pics-table .pic{
+    float:left;
+    margin:30px 0px;
+    box-sizing: border-box;
+}
+.pics-table .pic .img-pic{
+    width:370px;
+    height:260px;
+    cursor: pointer;
+    margin-bottom:20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.pics-table .pic .img-pic img{
+    width:100%;
+    height:100%;
+}
+.pics-table .pic .title-pic{
+    color:rgb(48, 48, 48);
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.pics-table .pic .collection a{
+    text-decoration: none;
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-left:10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.pics-table .pic .collection i{
+    color:rgb(102, 102, 102);
+    margin:0px 0px 0px 8px;
+}
+/*---------Social-----------*/
+.social .container{
+    overflow: hidden;
+    margin-bottom:0px;
+    background-color: rgb(21, 21, 21);
+    height:107px;
+}
+.social .copyright{
+    float:left;
+    width:40%;
+    color:rgb(119, 119, 119);
+    padding-left:68px;
+    padding-top:45px;
+}
+.copyright p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+ul{
+    list-style-type: none;
+}
+
+.social .social-cites span{
+    float:left;
+    content:'';
+    color:transparent;
+    background-color: transparent;
+    height:0px;
+    width:0px;
+    margin-top:0px;
+}
+.social .social-cites{
+    text-align: center;
+    margin-right: 20px;
+    float:right;
+    width:22%;
+    overflow: hidden;
+}
+.social .social-cites .social-list{
+    float:right;
+    margin-top:30px;
+    margin-left:8px;
+    margin-right: 10px;
+}
+.social .social-cites .social-list i{
+    color:rgb(83, 83, 83);
+    background-color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width:25px;
+    height: 25px;
+    padding: 8px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+}

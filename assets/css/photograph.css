@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*----------Body----------*/
+body{
+    height:1000px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.3);
+    height: 800px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*----------navbar----------*/
+/*logo*/
+.navbar .logo{
+    float:left;
+    width:20%;
+}
+.navbar .logo img{
+    height:37px;
+    padding-top:28px;
+    padding-left: 68px;
+}
+/*nav*/
+.navbar .nav{
+    float:right;
+    width: 75%;
+    margin-right: 64px;
+    padding-top:33px;
+}
+.navbar .nav span{
+    float:left;
+    content:'';
+    color:transparent;
+    background-color: transparent;
+    height:20px;
+    width:595px;
+}
+.navbar .nav .search{
+    padding-top:4px;
+}
+a i{
+    color:white;
+    font-size: 18px;
+    font-weight: 100;
+}
+ul{
+    list-style-type: none;
+}
+.navbar .nav .nav-list{
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar .nav .nav-list a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/*----------Header----------*/
+.header{
+    background-image: url('../images/redd-angelo-252496.jpg');
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    height:800px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header-content{
+    text-align: center;
+    padding-top: 309px;
+}
+.header-content h1{
+    color:rgb(255, 255, 255);
+    font-size: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 40.92px;
+    margin-bottom: 35px;
+}
+.header-content p{
+    color:rgba(255, 255, 255, 0.92);
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 40.92px;
+    padding-left: 320px;
+    padding-right: 320px;
+    margin-bottom: 31px;
+}
+.header-content button{
+    cursor:pointer;
+    padding:15px 28px;
+    border-radius: 3px;
+    border:2px solid transparent;
+    background-color: white;
+    
+}
+.btn-a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Portfolio */
+.portfolio{
+    padding-bottom:50px;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.portfolio .container{
+    overflow: hidden;
+    width:96%;
+    margin: auto;
+}
+.pics-table{
+    width:100%;
+    background-color: white;
+    margin:50px 10px;
+}
+.pics-table .pic{
+    float:left;
+    margin:30px 20px;
+    box-sizing: border-box;
+}
+.pics-table .pic .img-pic{
+    width:370px;
+    height:260px;
+    cursor: pointer;
+    margin-bottom:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pics-table .pic .img-pic img{
+    width:100%;
+    height:100%;
+}
+.pics-table .pic .title-pic{
+    color:rgb(48, 48, 48);
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.pics-table .pic .collection a{
+    text-decoration: none;
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-left:10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.pics-table .pic .collection i{
+    color:rgb(102, 102, 102);
+    margin:0px 0px 0px 8px;
+}
+/*---------Social-----------*/
+.social{
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+}
+.social .container{
+    overflow: hidden;
+    margin-bottom:0px;
+    height:107px;
+}
+.social .copyright{
+    float:left;
+    width:50%;
+    color:rgb(119, 119, 119);
+    padding-left:68px;
+    padding-top:45px;
+}
+.copyright p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+ul{
+    list-style-type: none;
+}
+
+.social .social-cites span{
+    float:left;
+    content:'';
+    color:transparent;
+    background-color: transparent;
+    height:20px;
+    width:345px;
+    margin-top:50px;
+}
+.social .social-cites .social-list{
+    float:left;
+    margin-top:40px;
+    margin-left:8px;
+}
+.social .social-cites .social-list i{
+    color:rgb(83, 83, 83);
+    background-color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width:25px;
+    height: 25px;
+    padding: 8px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
